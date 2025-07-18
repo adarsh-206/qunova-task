@@ -51,3 +51,17 @@ npm run build
 # 6. Start the production server
 npm run start
 ```
+
+## 🔄 Faker.js
+
+The application uses @faker-js/faker, a popular library for generating fake but realistic-looking data. Since this project does not connect to a real backend or API, faker.js allows us to simulate dynamic product listings with randomized but believable content.
+
+🧪 Generated Product Fields
+
+- 📦 name: A realistic-sounding product name (e.g., "Ergonomic Cotton Shirt")
+
+- 🖼️ image: A product image URL (generated using Faker’s image utilities or placeholders)
+
+- 💰 price: A randomized price in a reasonable range
+
+- ⭐ rating: A customer rating between 1 and 5
